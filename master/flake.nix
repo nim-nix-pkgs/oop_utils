@@ -11,6 +11,7 @@
   inputs.src-oop_utils-master.ref   = "refs/heads/master";
   inputs.src-oop_utils-master.owner = "bluenote10";
   inputs.src-oop_utils-master.repo  = "oop_utils";
+  inputs.src-oop_utils-master.dir   = "";
   inputs.src-oop_utils-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
